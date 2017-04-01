@@ -1,9 +1,11 @@
 # group-by-pinyin
 
+## Feature
 Sort by pinyin alphabet, and group by initial letter.
 
 Any non-Chinese word will be put into `#` group.
 
+## Usage
 > function(array, path)
 
 `path` can be `'a'`, `'a.b.c'` or `'a[0].b.c'`
