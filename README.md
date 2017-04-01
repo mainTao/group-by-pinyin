@@ -35,6 +35,11 @@ let arr = [
   },
 ]
 
+// group by property 'name'
+let result = groupByPinyin(arr, 'name')
+
+console.log(result)
+
 let expect = {
   L: [
     { name: 'LA', id: 6 },
@@ -48,8 +53,6 @@ let expect = {
   ]
 }
 
-// group by property 'name'
-let result = groupByPinyin(arr, 'name')
-console.log(result)
+console.log(expect)
 
 ```
