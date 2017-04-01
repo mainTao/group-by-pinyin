@@ -2,7 +2,7 @@
 
 > function(array, path)
 
-`path` can be 'a', 'a.b.c' or 'a[0].b.c'
+`path` can be `'a'`, `'a.b.c'` or `'a[0].b.c'`
 
 ## Sample
 
